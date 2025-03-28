@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple Article Listing | devChallenges.io</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #D9D9D9;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .container{
+        background-color: #F8FAFC; /* Fondo blanco */
+        width: 1280px; /* Ancho tipo desktop */
+        max-width: 100%; /* Asegura que se vea bien en pantallas más pequeñas */
+        min-height: 91%;
+        flex-direction: column;
+        padding-top: 30px;
+        margin-top: 130px;
+        padding-bottom: 10px;
+        text-align: center;
+        position: center;
+      }
+
+      h1 {
+        font-size: 36px;
+        font-weight: 600; 
+        text-align: center;
+        color: #030616;
+        margin-top: 15px;
+        margin-bottom: 35px;
+      }
+
+      .separator{
+        position: center;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .article {
+        display: flex;
+        align-items: center;
+        padding-left: 280px;
+        padding-right: 270px;
+        text-align: left;
+        border-bottom: 1px solid #E5E7EB;
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
+
+      .article:last-child {
+        border-bottom: none;
+      }
+
+      .article-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+      }
+
+      .article h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #000000;
+      }
+
+      .article p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #4D5562;
+        margin-top: 5px;
+      }
+
+      .article img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 70px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>We release interesting articles about <br> technology</h1>
+      <img class="separator" src="resources/Seperator.svg" alt="Future of AI">
+
+      <div class="article">
+        <img src="resources/photo_1.png" alt="Cloud Computing">
+        <div class="article-content">
+          <h2>Unlocking the Power of Cloud Computing: A Guide to Scalable Solutions</h2>
+          <p>November 12, 2024</p>
+        </div>
+        
+      </div>
+
+      <div class="article">
+        <img src="resources/photo_3.png" alt="Future of AI">
+        <div class="article-content">
+          <h2>The Future of AI: How Machine Learning is Revolutionizing Industries</h2>
+          <p>November 12, 2024</p>
+        </div>
+        
+      </div>
+
+      <div class="article">
+        <img src="resources/photo_2.png" alt="5G and Business">
+        <div class="article-content">
+          <h2>The Impact of 5G on Business: How Faster Networks are Transforming the Way We Work</h2>
+          <p>November 12, 2024</p>
+        </div>
+        
+      </div>
+      
+
+      <div class="author-info">
+        Coded by <a href="#">Your Name Here</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+          >devChallenges.io</a
+        >.
+      </div>
+    </div>
+
+    
+    <!-- 
+
+      We release interesting articles about technology
+    
+      Unlocking the Power of Cloud Computing
+    
+      A Guide to Scalable Solutions
+    
+      November 12, 2024
+    
+      The Future of AI
+    
+      How Machine Learning is Revolutionizing Industries
+    
+      The Impact of 5G on Business
+    
+      How Faster Networks are Transforming the Way We Work
+    
+    -->
+
+    
+  </body>
+</html>
